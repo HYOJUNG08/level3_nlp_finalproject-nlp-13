@@ -1,3 +1,50 @@
+[ENG](#ENG)
+[한국어](#한국어)
+
+## ENG
+# Pronunciation Correction Service for Foreigner, AI야어여
+
+This project is a Korean Education App that allows users to learn Korean and correct their pronunciation. Since a lot of people trying to study Korean, but online Korean education platforms are still insufficient.
+
+Most online Korean education platforms are designed for English-speaking users, which inconveniences non-English speakers from studying Korean. Also, existing pronunciation correction apps often struggle to accurately recognize pronunciation.
+
+Due to these, we have developed this app to provide word learning and pronunciation correction services for users learning basic Korean. Users can learn three words daily, ensuring steady progress without overwhelming them.
+
+## Getting Started
+
+To use this project, follow these steps:
+
+### Train and Test the Model
+```
+python model.py
+```
+```
+python ./train/inference.py
+```
+
+### Run the app:
+```
+cd flask
+```
+```
+flask run
+```
+
+## App Preview
+
+Here is a preview of our app:
+#### 1. Log-in and Attendance Records (Right section in the image below)
+![Alt text](/resources/service1.png)
+#### 2. Today's Vocabulary Learning
+![Alt text](/resources/service2.png)
+#### 3. Learn in languages other than Korean: English, Chinese, Japanese, Thai, Vietnamese 
+![Alt text](/resources/service3.png)
+#### 4. If pronunciation is incorrect, recommend other words with the same phonetic rules applied to the specific word
+![Alt text](/resources/service.gif)
+#### 5. Feature to record user's voice and provide feedback
+![Alt text](/resources/service_rec.gif)
+
+## 한국어
 # 외국인을 위한 발음 교정 서비스, AI야어여
 
 ### HYPE연어
